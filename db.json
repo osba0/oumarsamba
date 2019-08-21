@@ -1,17 +1,13 @@
 {
   "services":[{
     "encaissement":[{
-        "sde":[
+        "sde":[{
            "entete":[{
                   "logo":"url_logo",
                   "titre":"Encaisement de factures"
                 }
-          ],
-           "releve":{
-              "test":"test"
-            }
-        ]
-       }],
-    "transfert":"Proxicast"
+			]
+        }]
+       }]
   }]
 }
