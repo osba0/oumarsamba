@@ -5,9 +5,20 @@
            "entete":[{
                   "logo":"url_logo",
                   "titre":"Encaisement de factures"
-                }
+                },
+			"releve":[{
+				"type":"test"
+			}]
 			]
         }]
-       }]
+       }],
+	"Transfert":[{
+		"Proxicash":[{
+			"entete":[{
+				"logo":"url_logo",
+                "titre":"Transfert Proxicash"
+			}]
+		}]
+	}]
   }]
 }
