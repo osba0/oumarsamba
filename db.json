@@ -27,6 +27,14 @@
                 "titre":"Transfert Proxicash"
 			}]
 		}]
+	}],
+	"Recharge":[{
+		"Proxicash":[{
+			"entete":[{
+				"logo":"url_logo",
+                "titre":"Transfert Proxicash"
+			}]
+		}]
 	}]
   }]
 }
