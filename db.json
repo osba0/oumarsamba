@@ -1,13 +1,13 @@
 {
   "services":[
-    "encaissement":{
-        "sde":[
-           "entete":
+    "encaissement" : {
+        "sde" : [
+           "entete" :
                 {
                   "logo":"url_logo"
                   "titre":"Encaisement de factures"
                 }
-           "releve":{
+           "releve" : {
               "test":"test"
             }
         ]
