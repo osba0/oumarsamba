@@ -1,6 +1,6 @@
 {
   "services":[
-    "encaissement":[{
+    "encaissement":{
         "sde":[
            "entete":
                 {
@@ -11,8 +11,7 @@
               "test":"test"
             }
         ]
-       }
-    ],
+       },
     "transfert"
   ]
 }
