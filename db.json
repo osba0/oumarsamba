@@ -6,8 +6,8 @@
                   "logo":"url_logo",
                   "titre":"Encaisement de factures"
                 }],
-			"releve":[{
-				"type":"test"
+			"operation":[{
+				"type1":[{"labeloper":"Référence"}]
 			}]
         }]},{
 		"senelect":[{
@@ -20,8 +20,8 @@
 			}]
         }]
        }]},
-	{"Transfert":[{
-		"Proxicash":[{
+	{"transfert":[{
+		"proxicash":[{
 			"entete":[{
 				"logo":"url_logo",
                 "titre":"Transfert Proxicash"
