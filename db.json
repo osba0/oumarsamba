@@ -9,7 +9,7 @@
 			"releve":[{
 				"type":"test"
 			}]
-        }],
+        }]},{
 		"senelect":[{
            "entete":[{
                   "logo":"url_logo",
@@ -19,8 +19,8 @@
 				"type":"test"
 			}]
         }]
-       }],
-	"Transfert":[{
+       }]},
+	{"Transfert":[{
 		"Proxicash":[{
 			"entete":[{
 				"logo":"url_logo",
