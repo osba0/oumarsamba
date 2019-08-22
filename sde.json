@@ -1,13 +1,12 @@
 {
-	"status":"ok","totalResults":10,
  "sde":[{
-           "entete":[{
+           "entete":{
                   "logo":"url_logo",
                   "titre":"Encaisement de factures"
-                }]},
-			{"operation":[{
-				"type1":[{"labeloper":"Référence"},
-					{"formulaire":[
+                },
+			"operation":{
+				"type1":{"labeloper":"Référence"},
+					{"formulaire":
 						{"attributs":[{"methode":"get"},{"action":"linkto"}]},
 						{"definition":[
 							{
@@ -24,10 +23,8 @@
 								"title": "OK"
 							}
 						]}
-					]}
-					
-				]
-			}]
+					}
+			}
         }]
 }
 
