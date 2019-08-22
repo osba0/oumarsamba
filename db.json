@@ -7,7 +7,12 @@
                   "titre":"Encaisement de factures"
                 }],
 			"operation":[{
-				"type1":[{"labeloper":"Référence"}]
+				"type1":[{"labeloper":"Référence"},
+					{"form":[{"form1":"ff"}]
+					
+					},
+					{"action":"linkto"}
+				]
 			}]
         }]},{
 		"senelect":[{
