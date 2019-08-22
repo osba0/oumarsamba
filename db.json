@@ -8,10 +8,11 @@
                 }],
 			"operation":[{
 				"type1":[{"labeloper":"Référence"},
-					{"form":[{"form1":"ff"}]
+					{"formulaire":[
+						{"attributs":[{"methode":"get"},{"action","linkto"}]},
+						{"definition":[{"dd":"dd"}]}
+					]}
 					
-					},
-					{"action":"linkto"}
 				]
 			}]
         }]},{
