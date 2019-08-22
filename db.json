@@ -10,7 +10,21 @@
 				"type1":[{"labeloper":"Référence"},
 					{"formulaire":[
 						{"attributs":[{"methode":"get"},{"action":"linkto"}]},
-						{"definition":[{"dd":"dd"}]}
+						{"definition":[
+							{
+								"label": "Identifiant",
+								"size":"50",
+								"type": "text",
+								"name": "identifiant",
+								"placeholder": "Entrer votre identifiant",
+								"regex":"number",
+								"valeurDefaut":""
+							},
+							{
+								"type": "submit",
+								"title": "OK"
+							}
+						]}
 					]}
 					
 				]
