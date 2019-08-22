@@ -1,5 +1,7 @@
 {
-  "sde":[{
+  "services":[{
+    "encaissement":[{
+        "sde":[{
            "entete":[{
                   "logo":"url_logo",
                   "titre":"Encaisement de factures"
@@ -27,5 +29,31 @@
 					
 				]
 			}]
+        }]},{
+		"senelect":[{
+           "entete":[{
+                  "logo":"url_logo",
+                  "titre":"Encaisement de factures"
+                }],
+			"releve":[{
+				"type":"test"
+			}]
         }]
-} 
+       }]},
+	{"transfert":[{
+		"proxicash":[{
+			"entete":[{
+				"logo":"url_logo",
+                "titre":"Transfert Proxicash"
+			}]
+		}]
+	}]}
+	]
+}
+
+
+
+
+
+
+
