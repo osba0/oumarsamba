@@ -1,8 +1,1 @@
-{
-   "sde":[{
-           "entete":{
-			  "logo":"url_logo",
-			  "titre":"Encaisement de factures"
-			}
-        }]
-}
+{"status":"ok","totalResults":10,"articles":[{"source":{"id":"techcrunch","name":"TechCrunch"},"author":"Connie Loizos","title":"titre","description":"test","url":"link","urlToImage":"gg","content":"ggggggg"}, {"source":{"id":"techcrunch","name":"TechCrunch"},"author":"Connie Loizos","title":"titre","description":"test","url":"link","urlToImage":"gg","content":"ggggggg"}]}
