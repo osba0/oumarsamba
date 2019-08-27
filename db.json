@@ -1,10 +1,76 @@
 {
-   "sde":[{
-           "entete":{
-			  "logo":"url_logo",
-			  "titre":"Encaisement de factures"
-			}
-        }]
+  "services": [
+                        {
+                            "id": 1,
+                            "endpoint": "url",
+                            "libelle": "ProxiCash",
+                            "description": "Solution de transfert d'argent simple, rapide et sécurisé",
+                            "assets": {
+                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/Yooni-Ma_cash.png",
+                                "couleur": "#f0ad4e"
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "endpoint": "url",
+                            "libelle": "SmallWorld",
+                            "description": "Envoyer de l'argent en ligne au Sénégal est simple et rapide avec Small World",
+                            "assets": {
+                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/choice.jpg",
+                                "couleur": "#5CB85C"
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "endpoint": "url",
+                            "libelle": "Ria",
+                            "description": "Ria est une organisation internationale de transfert d'argent.",
+                            "assets": {
+                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/lg-ria.jpg",
+                                "couleur": "#f0ad4e"
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "endpoint": "url",
+                            "libelle": "Transfast",
+                            "description": "Transfast est une société internationale de transfert d'argent et de paiements transfrontaliers.",
+                            "assets": {
+                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/logo14.png",
+                                "couleur": "#0B64A2"
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "endpoint": "url",
+                            "libelle": "Lamp Fall",
+                            "description": "Lamp Fall Cash est un service de transfert d'argent.",
+                            "assets": {
+                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/logo12.png",
+                                "couleur": "#F2C530"
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "endpoint": "url",
+                            "libelle": "Tigo Cash",
+                            "description": "Tigo Cash est un service de transfert d'argent national ouvert à tout usager",
+                            "assets": {
+                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/logo11.png",
+                                "couleur": "#545F9B"
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "endpoint": "url",
+                            "libelle": "MoneyGram",
+                            "description": "MoneyGram propose des moyens rapides et fiables pour envoyer de l'argent",
+                            "assets": {
+                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/moneygram.jpg",
+                                "couleur": "#d9534f"
+                            }
+                        }
+                    ]
 }
 
 
