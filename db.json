@@ -1,81 +1,345 @@
 {
-  "services": [
-                        {
-                            "id": 1,
-                            "endpoint": "url",
-                            "libelle": "ProxiCash",
-                            "description": "Solution de transfert d'argent simple, rapide et sécurisé",
-                            "assets": {
-                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/Yooni-Ma_cash.png",
-                                "couleur": "#f0ad4e"
-                            }
-                        },
-                        {
-                            "id": 2,
-                            "endpoint": "url",
-                            "libelle": "SmallWorld",
-                            "description": "Envoyer de l'argent en ligne au Sénégal est simple et rapide avec Small World",
-                            "assets": {
-                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/choice.jpg",
-                                "couleur": "#5CB85C"
-                            }
-                        },
-                        {
-                            "id": 3,
-                            "endpoint": "url",
-                            "libelle": "Ria",
-                            "description": "Ria est une organisation internationale de transfert d'argent.",
-                            "assets": {
-                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/lg-ria.jpg",
-                                "couleur": "#f0ad4e"
-                            }
-                        },
-                        {
-                            "id": 4,
-                            "endpoint": "url",
-                            "libelle": "Transfast",
-                            "description": "Transfast est une société internationale de transfert d'argent et de paiements transfrontaliers.",
-                            "assets": {
-                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/logo14.png",
-                                "couleur": "#0B64A2"
-                            }
-                        },
-                        {
-                            "id": 5,
-                            "endpoint": "url",
-                            "libelle": "Lamp Fall",
-                            "description": "Lamp Fall Cash est un service de transfert d'argent.",
-                            "assets": {
-                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/logo12.png",
-                                "couleur": "#F2C530"
-                            }
-                        },
-                        {
-                            "id": 6,
-                            "endpoint": "url",
-                            "libelle": "Tigo Cash",
-                            "description": "Tigo Cash est un service de transfert d'argent national ouvert à tout usager",
-                            "assets": {
-                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/logo11.png",
-                                "couleur": "#545F9B"
-                            }
-                        },
-                        {
-                            "id": 7,
-                            "endpoint": "url",
-                            "libelle": "MoneyGram",
-                            "description": "MoneyGram propose des moyens rapides et fiables pour envoyer de l'argent",
-                            "assets": {
-                                "image": "http://192.168.4.57/gweb/web/bundles/getigatewayclient/images/moneygram.jpg",
-                                "couleur": "#d9534f"
-                            }
+	"pays":{[{
+        "id": 1,
+        "name": "Sénégal",
+        "code_iso": "sn",
+        "devise": "FCFA",
+        "indicatif": "+221",
+        "drapeau": "url",
+        "couleur": "#f39720",
+        "types": [
+            {
+                "id": 1,
+                "libelle": "Transfert d'argent",
+                "slug": "transfert",
+                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfert.png",
+                "services": [
+                    {
+                        "id": 1,
+                        "endpoint": "http://localhost:5000/api/v1/service/proxicash",
+                        "libelle": "Proxicash",
+                        "description": "Solution de transfert d'argent simple, rapide et sécurisé",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/proxicash.png",
+                            "couleur": "#f0ad4e"
                         }
-                    ]
+                    },
+                    {
+                        "id": 2,
+                        "endpoint": "url",
+                        "libelle": "SmallWorld",
+                        "description": "Envoyer de l'argent en ligne au Sénégal est simple et rapide avec Small World",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/small.png",
+                            "couleur": "#5CB85C"
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "endpoint": "url",
+                        "libelle": "Ria",
+                        "description": "Ria est une organisation internationale de transfert d'argent.",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/ria.png",
+                            "couleur": "#f0ad4e"
+                        }
+                    },
+                    {
+                    	"id": 4,
+                        "endpoint": "url",
+                        "name": "transfast",
+                        "libelle": "Transfast",
+                        "description": "Transfast est une société internationale de transfert d'argent et de paiements transfrontaliers.",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfast.png",
+                            "couleur": "#0B64A2"
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "endpoint": "url",
+                        "libelle": "Lamp Fall",
+                        "description": "Lamp Fall Cash est un service de transfert d'argent.",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/lampcash.png",
+                            "couleur": "#F2C530"
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "endpoint": "url",
+                        "libelle": "Tigo Cash",
+                        "description": "Tigo Cash est un service de transfert d'argent national ouvert à tout usager",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/tigocash.png",
+                            "couleur": "#545F9B"
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "endpoint": "url",
+                        "libelle": "MoneyGram",
+                        "description": "MoneyGram propose des moyens rapides et fiables pour envoyer de l'argent",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/money.png",
+                            "couleur": "#d9534f"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "libelle": "Encaissement",
+                "slug": "encaissement",
+                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/encaissement.png",
+                "services": [
+                    {
+                        "id": 1,
+                        "endpoint": "url",
+                        "libelle": "Senelec",
+                        "description": "Senelec est responsable de la production, du transport, de la distribution et de la vente de l’énergie électrique",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/senelec.png",
+                            "couleur": "#D22002"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "endpoint": "url",
+                        "libelle": "SDE",
+                        "description": "La SDE est une entreprise sénégalaise qui assure l'exploitation et la gestion du service public de l'eau",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/sde.png",
+                            "couleur": "#189B72"
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "endpoint": "url",
+                        "libelle": "Woyofal",
+                        "description": "Woyofal description...........................................................",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/woyofal.png",
+                            "couleur": "#d9534f"
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "endpoint": "url",
+                        "libelle": "Sonatel",
+                        "description": "Sonatel description...........................................................",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/sonatel.png",
+                            "couleur": "#EE9B18"
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "endpoint": "url",
+                        "libelle": "Campusen",
+                        "description": "Campusen description............................................................",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/campusen.png",
+                            "couleur": "#47B96C"
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "endpoint": "url",
+                        "libelle": "Upay Collecte",
+                        "description": "Upay Collecte description......................................................",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/upay.png",
+                            "couleur": "#0B64A2"
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "endpoint": "url",
+                        "libelle": "Assurance",
+                        "description": "Assurance description........................................................",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/assurance.png",
+                            "couleur": "#e68306"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "libelle": "Monnaie Elect.",
+                "slug": "monnaie",
+                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/monnaie.png",
+                "services": [
+                    {
+                        "id": 1,
+                        "endpoint": "http://localhost:5000/api/v1/monnaie/electronique/orangeMoney",
+                        "libelle": "Orange Monney",
+                        "slug": "orangemoney",
+                        "description": "Orange Money est un moyen de paiement innovant, sécurisé et rapide",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orangemoney.png",
+                            "couleur": "#FA6C1C"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "endpoint": "http://localhost:5000/api/v1/monnaie/electronique/tigoCash",
+                        "libelle": "Tigo Cash",
+                        "slug": "tigocash",
+                        "description": "Tigo Cash est un moyen de paiement innovant, sécurisé et rapide",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/tigocash.png",
+                            "couleur": "#396bb4"
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "endpoint": "http://localhost:5000/api/v1/monnaie/electronique/posteCash",
+                        "libelle": "Poste Cash",
+                        "slug": "postecash",
+                        "description": "Poste Cash est un service financier qui propose des cartes prépayées.",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/postecash.png",
+                            "couleur": "#545F9B"
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "endpoint": "http://localhost:5000/api/v1/monnaie/electronique/eMoney",
+                        "libelle": "E-Money",
+                        "description": "E-Money est un moyen de paiement innovant, sécurisé et rapide",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/emoney.png",
+                            "couleur": "#546595"
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "endpoint": "http://localhost:5000/api/v1/monnaie/electronique/wizall",
+                        "libelle": "Wizall",
+                        "slug": "wizall",
+                        "numeroRetrait": "76 569 74 38",
+                        "description": "Wizall, un service de transfert immédiat disponible",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/wizall.png",
+                            "couleur": "#02b6cd"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "libelle": "Recharge",
+                "slug": "recharge",
+                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/recharge.png",
+                "services": [
+                    {
+                        "id": 1,
+                        "endpoint": "http://localhost:5000/api/v1/recharge/orange",
+                        "libelle": "Orange",
+                        "operateur": 5,
+                        "sousOperateur": null,
+                        "typeOperateur": null,
+                        "critere": null,
+                        "description": "Orange offre des solutions globales de télécommunications dans les domaines du fixe",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orange.png",
+                            "couleur": "#FA6C1C"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "endpoint": "http://localhost:5000/api/v1/recharge/tigo",
+                        "libelle": "Tigo",
+                        "operateur": 20,
+                        "sousOperateur": null,
+                        "typeOperateur": null,
+                        "critere": null,
+                        "description": "Tigo offre des solutions globales de télécommunications dans les domaines du fixe",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/tigo.png",
+                            "couleur": "#396bb4"
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "endpoint": "http://localhost:5000/api/v1/recharge/expresso",
+                        "libelle": "Expresso",
+                        "operateur": 34,
+                        "sousOperateur": null,
+                        "typeOperateur": null,
+                        "critere": null,
+                        "description": "Expresso offre des solutions globales de télécommunications dans les domaines du fixe",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/expresso.png",
+                            "couleur": "#542785"
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "endpoint": "http://localhost:5000/api/v1/recharge/rapido",
+                        "libelle": "Rapido",
+                        "operateur": 57,  
+					    "sousOperateur": "0002",
+					    "typeOperateur": "0001",
+					    "critere": "1",
+                        "description": "description rapido ...............................................................",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/rapido.png",
+                            "couleur": "#d2322d"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "libelle": "Service bancaire",
+                "slug": "banque",
+                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/a2ccercle.png",
+                "services": [
+                    {
+                        "id": 1,
+                        "endpoint": "url",
+                        "libelle": "Upay",
+                        "description": "Solution de transfert d'argent, paiement de masse simple, rapide et sécurisé",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/upay.png",
+                            "couleur": "#396bb4"
+                        }
+                    }
+                ]
+            }
+        ]
+		},
+		{
+			"id": 2,
+			"name": "Cote d'ivoire",
+			"code_iso": "cv",
+			"devise": "FCFA",
+			"indicatif": "+224",
+			"drapeau": "url",
+			"couleur": "#f39720",
+			"types": [
+				{
+					"id": 1,
+					"libelle": "Transfert d'argent",
+					"slug": "transfert",
+					"icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfert.png",
+					"services": [
+						{
+							"id": 1,
+							"endpoint": "http://localhost:5000/api/v1/service/proxicash",
+							"libelle": "Proxicash",
+							"description": "Solution de transfert d'argent simple, rapide et sécurisé",
+							"assets": {
+								"image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/proxicash.png",
+								"couleur": "#f0ad4e"
+							}
+						}
+					]
+				}
+			]
+		}]
+    }
 }
-
-
-
-
-
-
-
