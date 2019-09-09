@@ -1,5 +1,5 @@
 {
-	"pays":{[{
+	"pays":[{
         "id": 1,
         "name": "Sénégal",
         "code_iso": "sn",
@@ -112,56 +112,6 @@
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/sde.png",
                             "couleur": "#189B72"
                         }
-                    },
-                    {
-                        "id": 3,
-                        "endpoint": "url",
-                        "libelle": "Woyofal",
-                        "description": "Woyofal description...........................................................",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/woyofal.png",
-                            "couleur": "#d9534f"
-                        }
-                    },
-                    {
-                        "id": 4,
-                        "endpoint": "url",
-                        "libelle": "Sonatel",
-                        "description": "Sonatel description...........................................................",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/sonatel.png",
-                            "couleur": "#EE9B18"
-                        }
-                    },
-                    {
-                        "id": 5,
-                        "endpoint": "url",
-                        "libelle": "Campusen",
-                        "description": "Campusen description............................................................",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/campusen.png",
-                            "couleur": "#47B96C"
-                        }
-                    },
-                    {
-                        "id": 6,
-                        "endpoint": "url",
-                        "libelle": "Upay Collecte",
-                        "description": "Upay Collecte description......................................................",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/upay.png",
-                            "couleur": "#0B64A2"
-                        }
-                    },
-                    {
-                        "id": 7,
-                        "endpoint": "url",
-                        "libelle": "Assurance",
-                        "description": "Assurance description........................................................",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/assurance.png",
-                            "couleur": "#e68306"
-                        }
                     }
                 ]
             },
@@ -181,51 +131,8 @@
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orangemoney.png",
                             "couleur": "#FA6C1C"
                         }
-                    },
-                    {
-                        "id": 2,
-                        "endpoint": "http://localhost:5000/api/v1/monnaie/electronique/tigoCash",
-                        "libelle": "Tigo Cash",
-                        "slug": "tigocash",
-                        "description": "Tigo Cash est un moyen de paiement innovant, sécurisé et rapide",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/tigocash.png",
-                            "couleur": "#396bb4"
-                        }
-                    },
-                    {
-                        "id": 3,
-                        "endpoint": "http://localhost:5000/api/v1/monnaie/electronique/posteCash",
-                        "libelle": "Poste Cash",
-                        "slug": "postecash",
-                        "description": "Poste Cash est un service financier qui propose des cartes prépayées.",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/postecash.png",
-                            "couleur": "#545F9B"
-                        }
-                    },
-                    {
-                        "id": 4,
-                        "endpoint": "http://localhost:5000/api/v1/monnaie/electronique/eMoney",
-                        "libelle": "E-Money",
-                        "description": "E-Money est un moyen de paiement innovant, sécurisé et rapide",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/emoney.png",
-                            "couleur": "#546595"
-                        }
-                    },
-                    {
-                        "id": 5,
-                        "endpoint": "http://localhost:5000/api/v1/monnaie/electronique/wizall",
-                        "libelle": "Wizall",
-                        "slug": "wizall",
-                        "numeroRetrait": "76 569 74 38",
-                        "description": "Wizall, un service de transfert immédiat disponible",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/wizall.png",
-                            "couleur": "#02b6cd"
-                        }
                     }
+                   
                 ]
             },
             {
@@ -246,48 +153,6 @@
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orange.png",
                             "couleur": "#FA6C1C"
-                        }
-                    },
-                    {
-                        "id": 2,
-                        "endpoint": "http://localhost:5000/api/v1/recharge/tigo",
-                        "libelle": "Tigo",
-                        "operateur": 20,
-                        "sousOperateur": null,
-                        "typeOperateur": null,
-                        "critere": null,
-                        "description": "Tigo offre des solutions globales de télécommunications dans les domaines du fixe",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/tigo.png",
-                            "couleur": "#396bb4"
-                        }
-                    },
-                    {
-                        "id": 3,
-                        "endpoint": "http://localhost:5000/api/v1/recharge/expresso",
-                        "libelle": "Expresso",
-                        "operateur": 34,
-                        "sousOperateur": null,
-                        "typeOperateur": null,
-                        "critere": null,
-                        "description": "Expresso offre des solutions globales de télécommunications dans les domaines du fixe",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/expresso.png",
-                            "couleur": "#542785"
-                        }
-                    },
-                    {
-                        "id": 4,
-                        "endpoint": "http://localhost:5000/api/v1/recharge/rapido",
-                        "libelle": "Rapido",
-                        "operateur": 57,  
-					    "sousOperateur": "0002",
-					    "typeOperateur": "0001",
-					    "critere": "1",
-                        "description": "description rapido ...............................................................",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/rapido.png",
-                            "couleur": "#d2322d"
                         }
                     }
                 ]
@@ -341,5 +206,4 @@
 				}
 			]
 		}]
-    }
 }
