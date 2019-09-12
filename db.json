@@ -205,5 +205,34 @@
 					]
 				}
 			]
+		},
+		{
+			"id": 2,
+			"name": "Mali",
+			"code_iso": "ml",
+			"devise": "FCFA",
+			"indicatif": "+223",
+			"drapeau": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg",
+			"couleur": "#f39700",
+			"types": [
+				{
+					"id": 1,
+					"libelle": "Transfert d'argent",
+					"slug": "transfert",
+					"icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfert.png",
+					"services": [
+						{
+							"id": 1,
+							"endpoint": "http://localhost:5000/api/v1/service/proxicash",
+							"libelle": "Proxicash",
+							"description": "Solution de transfert d'argent simple, rapide et sécurisé",
+							"assets": {
+								"image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/proxicash.png",
+								"couleur": "#f0ad4e"
+							}
+						}
+					]
+				}
+			]
 		}]
 }
