@@ -25,16 +25,6 @@
                         }
                     },
                     {
-                        "id": 2,
-                        "endpoint": "url",
-                        "libelle": "SmallWorld",
-                        "description": "Envoyer de l'argent en ligne au Sénégal est simple et rapide avec Small World",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/small.png",
-                            "couleur": "#5CB85C"
-                        }
-                    },
-                    {
                         "id": 3,
                         "endpoint": "url",
                         "libelle": "Ria",
