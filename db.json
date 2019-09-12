@@ -45,27 +45,6 @@
                         }
                     },
                     {
-                    	"id": 4,
-                        "endpoint": "url",
-                        "name": "transfast",
-                        "libelle": "Transfast",
-                        "description": "Transfast est une société internationale de transfert d'argent et de paiements transfrontaliers.",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfast.png",
-                            "couleur": "#0B64A2"
-                        }
-                    },
-                    {
-                        "id": 5,
-                        "endpoint": "url",
-                        "libelle": "Lamp Fall",
-                        "description": "Lamp Fall Cash est un service de transfert d'argent.",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/lampcash.png",
-                            "couleur": "#F2C530"
-                        }
-                    },
-                    {
                         "id": 6,
                         "endpoint": "url",
                         "libelle": "Tigo Cash",
