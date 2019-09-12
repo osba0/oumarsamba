@@ -1,0 +1,20 @@
+{
+	"pays":[{
+        "id": 1,
+        "name": "Sénégal",
+        "code_iso": "sn",
+        "devise": "FCFA",
+        "indicatif": "+221",
+        "drapeau": "https://cdn10.bigcommerce.com/s-hhbbk/products/827/images/3883/SENE0001__58687.1460460956.1280.1280.png?c=2",
+        "couleur": "#f39720"
+		},
+		{
+			"id": 2,
+			"name": "Cote d'ivoire",
+			"code_iso": "cv",
+			"devise": "FCFA",
+			"indicatif": "+224",
+			"drapeau": "https://cdn.britannica.com/48/5048-004-D65C85B2/Flag-Cote-dIvoire.jpg",
+			"couleur": "#f39720"
+		}]
+}
