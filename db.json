@@ -25,6 +25,16 @@
                         }
                     },
                     {
+                        "id": 2,
+                        "endpoint": "url",
+                        "libelle": "SmallWorld",
+                        "description": "Envoyer de l'argent en ligne au Sénégal est simple et rapide avec Small World",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/small.png",
+                            "couleur": "#5CB85C"
+                        }
+                    },
+                    {
                         "id": 3,
                         "endpoint": "url",
                         "libelle": "Ria",
@@ -32,6 +42,27 @@
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/ria.png",
                             "couleur": "#f0ad4e"
+                        }
+                    },
+                    {
+                    	"id": 4,
+                        "endpoint": "url",
+                        "name": "transfast",
+                        "libelle": "Transfast",
+                        "description": "Transfast est une société internationale de transfert d'argent et de paiements transfrontaliers.",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfast.png",
+                            "couleur": "#0B64A2"
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "endpoint": "url",
+                        "libelle": "Lamp Fall",
+                        "description": "Lamp Fall Cash est un service de transfert d'argent.",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/lampcash.png",
+                            "couleur": "#F2C530"
                         }
                     },
                     {
@@ -105,6 +136,28 @@
                 ]
             },
             {
+                "id": 4,
+                "libelle": "Recharge",
+                "slug": "recharge",
+                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/recharge.png",
+                "services": [
+                    {
+                        "id": 1,
+                        "endpoint": "http://localhost:5000/api/v1/recharge/orange",
+                        "libelle": "Orange",
+                        "operateur": 5,
+                        "sousOperateur": null,
+                        "typeOperateur": null,
+                        "critere": null,
+                        "description": "Orange offre des solutions globales de télécommunications dans les domaines du fixe",
+                        "assets": {
+                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orange.png",
+                            "couleur": "#FA6C1C"
+                        }
+                    }
+                ]
+            },
+            {
                 "id": 1,
                 "libelle": "Service bancaire",
                 "slug": "banque",
@@ -132,35 +185,6 @@
 			"indicatif": "+224",
 			"drapeau": "https://cdn.britannica.com/48/5048-004-D65C85B2/Flag-Cote-dIvoire.jpg",
 			"couleur": "#f39720",
-			"types": [
-				{
-					"id": 1,
-					"libelle": "Transfert d'argent",
-					"slug": "transfert",
-					"icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfert.png",
-					"services": [
-						{
-							"id": 1,
-							"endpoint": "http://localhost:5000/api/v1/service/proxicash",
-							"libelle": "Proxicash",
-							"description": "Solution de transfert d'argent simple, rapide et sécurisé",
-							"assets": {
-								"image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/proxicash.png",
-								"couleur": "#f0ad4e"
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"name": "Mali",
-			"code_iso": "ml",
-			"devise": "FCFA",
-			"indicatif": "+223",
-			"drapeau": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg",
-			"couleur": "#f39700",
 			"types": [
 				{
 					"id": 1,
