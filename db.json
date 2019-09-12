@@ -105,28 +105,6 @@
                 ]
             },
             {
-                "id": 4,
-                "libelle": "Recharge",
-                "slug": "recharge",
-                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/recharge.png",
-                "services": [
-                    {
-                        "id": 1,
-                        "endpoint": "http://localhost:5000/api/v1/recharge/orange",
-                        "libelle": "Orange",
-                        "operateur": 5,
-                        "sousOperateur": null,
-                        "typeOperateur": null,
-                        "critere": null,
-                        "description": "Orange offre des solutions globales de télécommunications dans les domaines du fixe",
-                        "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orange.png",
-                            "couleur": "#FA6C1C"
-                        }
-                    }
-                ]
-            },
-            {
                 "id": 1,
                 "libelle": "Service bancaire",
                 "slug": "banque",
