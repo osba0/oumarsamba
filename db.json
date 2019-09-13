@@ -19,6 +19,7 @@
                         "endpoint": "http://localhost:5000/api/v1/service/proxicash",
                         "libelle": "Proxicash",
                         "description": "Solution de transfert d'argent simple, rapide et sécurisé",
+						"affecter":["sn","civ"],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/proxicash.png",
                             "couleur": "#f0ad4e"
@@ -29,6 +30,7 @@
                         "endpoint": "url",
                         "libelle": "SmallWorld",
                         "description": "Envoyer de l'argent en ligne au Sénégal est simple et rapide avec Small World",
+						"affecter":["sn"],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/small.png",
                             "couleur": "#5CB85C"
@@ -39,6 +41,7 @@
                         "endpoint": "url",
                         "libelle": "Ria",
                         "description": "Ria est une organisation internationale de transfert d'argent.",
+						"affecter":["sn","civ"],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/ria.png",
                             "couleur": "#f0ad4e"
@@ -50,6 +53,7 @@
                         "name": "transfast",
                         "libelle": "Transfast",
                         "description": "Transfast est une société internationale de transfert d'argent et de paiements transfrontaliers.",
+						"affecter":[],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfast.png",
                             "couleur": "#0B64A2"
@@ -60,6 +64,7 @@
                         "endpoint": "url",
                         "libelle": "Lamp Fall",
                         "description": "Lamp Fall Cash est un service de transfert d'argent.",
+						"affecter":["civ"],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/lampcash.png",
                             "couleur": "#F2C530"
@@ -70,6 +75,7 @@
                         "endpoint": "url",
                         "libelle": "Tigo Cash",
                         "description": "Tigo Cash est un service de transfert d'argent national ouvert à tout usager",
+						"affecter":["sn","civ"],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/tigocash.png",
                             "couleur": "#545F9B"
@@ -79,6 +85,7 @@
                         "id": 7,
                         "endpoint": "url",
                         "libelle": "MoneyGram",
+						"affecter":[],
                         "description": "MoneyGram propose des moyens rapides et fiables pour envoyer de l'argent",
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/money.png",
@@ -98,6 +105,7 @@
                         "endpoint": "url",
                         "libelle": "Senelec",
                         "description": "Senelec est responsable de la production, du transport, de la distribution et de la vente de l’énergie électrique",
+						"affecter":[],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/senelec.png",
                             "couleur": "#D22002"
@@ -108,6 +116,7 @@
                         "endpoint": "url",
                         "libelle": "SDE",
                         "description": "La SDE est une entreprise sénégalaise qui assure l'exploitation et la gestion du service public de l'eau",
+						"affecter":["sn"],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/sde.png",
                             "couleur": "#189B72"
@@ -127,6 +136,7 @@
                         "libelle": "Orange Monney",
                         "slug": "orangemoney",
                         "description": "Orange Money est un moyen de paiement innovant, sécurisé et rapide",
+						"affecter":["civ"],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orangemoney.png",
                             "couleur": "#FA6C1C"
@@ -150,6 +160,7 @@
                         "typeOperateur": null,
                         "critere": null,
                         "description": "Orange offre des solutions globales de télécommunications dans les domaines du fixe",
+						"affecter":["sn","civ"],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orange.png",
                             "couleur": "#FA6C1C"
@@ -168,6 +179,7 @@
                         "endpoint": "url",
                         "libelle": "Upay",
                         "description": "Solution de transfert d'argent, paiement de masse simple, rapide et sécurisé",
+						"affecter":["sn","civ"],
                         "assets": {
                             "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/upay.png",
                             "couleur": "#396bb4"
@@ -190,15 +202,16 @@
 					"id": 1,
 					"libelle": "Transfert d'argent",
 					"slug": "transfert",
-					"icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfert.png",
+					"icone": "http://192.168.4.164/gwebciv/web/bundles/getigatewayclient/images/transfert.png",
 					"services": [
 						{
 							"id": 1,
 							"endpoint": "http://localhost:5000/api/v1/service/proxicash",
 							"libelle": "Proxicash",
 							"description": "Solution de transfert d'argent simple, rapide et sécurisé",
+							"affecter":["sn"],
 							"assets": {
-								"image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/proxicash.png",
+								"image": "http://192.168.4.164/gwebciv/web/bundles/getigatewayclient/images/proxicash.png",
 								"couleur": "#f0ad4e"
 							}
 						}
