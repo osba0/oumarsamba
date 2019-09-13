@@ -12,7 +12,7 @@
                 "id": 1,
                 "libelle": "Transfert d'argent",
                 "slug": "transfert",
-                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfert.png",
+                "icone": "http://xpress.sn/image-gweb/transfert.png",
                 "services": [
                     {
                         "id": 1,
@@ -21,7 +21,7 @@
                         "description": "Solution de transfert d'argent simple, rapide et sécurisé",
 						"affecter":["sn","civ"],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/proxicash.png",
+                            "image": "http://xpress.sn/image-gweb/proxicash.png",
                             "couleur": "#f0ad4e"
                         }
                     },
@@ -32,7 +32,7 @@
                         "description": "Envoyer de l'argent en ligne au Sénégal est simple et rapide avec Small World",
 						"affecter":["sn"],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/small.png",
+                            "image": "http://xpress.sn/image-gweb/small.png",
                             "couleur": "#5CB85C"
                         }
                     },
@@ -43,7 +43,7 @@
                         "description": "Ria est une organisation internationale de transfert d'argent.",
 						"affecter":["sn","civ"],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/ria.png",
+                            "image": "http://xpress.sn/image-gweb/ria.png",
                             "couleur": "#f0ad4e"
                         }
                     },
@@ -55,7 +55,7 @@
                         "description": "Transfast est une société internationale de transfert d'argent et de paiements transfrontaliers.",
 						"affecter":[],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/transfast.png",
+                            "image": "http://xpress.sn/image-gweb/transfast.png",
                             "couleur": "#0B64A2"
                         }
                     },
@@ -66,7 +66,7 @@
                         "description": "Lamp Fall Cash est un service de transfert d'argent.",
 						"affecter":["civ"],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/lampcash.png",
+                            "image": "http://xpress.sn/image-gweb/lampcash.png",
                             "couleur": "#F2C530"
                         }
                     },
@@ -77,7 +77,7 @@
                         "description": "Tigo Cash est un service de transfert d'argent national ouvert à tout usager",
 						"affecter":["sn","civ"],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/tigocash.png",
+                            "image": "http://xpress.sn/image-gweb/tigocash.png",
                             "couleur": "#545F9B"
                         }
                     },
@@ -88,7 +88,7 @@
 						"affecter":[],
                         "description": "MoneyGram propose des moyens rapides et fiables pour envoyer de l'argent",
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/money.png",
+                            "image": "http://xpress.sn/image-gweb/money.png",
                             "couleur": "#d9534f"
                         }
                     }
@@ -98,7 +98,7 @@
                 "id": 2,
                 "libelle": "Encaissement",
                 "slug": "encaissement",
-                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/encaissement.png",
+                "icone": "http://xpress.sn/image-gweb/encaissement.png",
                 "services": [
                     {
                         "id": 1,
@@ -107,7 +107,7 @@
                         "description": "Senelec est responsable de la production, du transport, de la distribution et de la vente de l’énergie électrique",
 						"affecter":[],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/senelec.png",
+                            "image": "http://xpress.sn/image-gweb/senelec.png",
                             "couleur": "#D22002"
                         }
                     },
@@ -118,7 +118,7 @@
                         "description": "La SDE est une entreprise sénégalaise qui assure l'exploitation et la gestion du service public de l'eau",
 						"affecter":["sn"],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/sde.png",
+                            "image": "http://xpress.sn/image-gweb/sde.png",
                             "couleur": "#189B72"
                         }
                     }
@@ -128,7 +128,7 @@
                 "id": 3,
                 "libelle": "Monnaie Elect.",
                 "slug": "monnaie",
-                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/monnaie.png",
+                "icone": "http://xpress.sn/image-gweb/monnaie.png",
                 "services": [
                     {
                         "id": 1,
@@ -138,7 +138,7 @@
                         "description": "Orange Money est un moyen de paiement innovant, sécurisé et rapide",
 						"affecter":["civ"],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orangemoney.png",
+                            "image": "http://xpress.sn/image-gweb/orangemoney.png",
                             "couleur": "#FA6C1C"
                         }
                     }
@@ -149,7 +149,7 @@
                 "id": 4,
                 "libelle": "Recharge",
                 "slug": "recharge",
-                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/recharge.png",
+                "icone": "http://xpress.sn/image-gweb/recharge.png",
                 "services": [
                     {
                         "id": 1,
@@ -162,7 +162,7 @@
                         "description": "Orange offre des solutions globales de télécommunications dans les domaines du fixe",
 						"affecter":["sn","civ"],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/orange.png",
+                            "image": "http://xpress.sn/image-gweb/orange.png",
                             "couleur": "#FA6C1C"
                         }
                     }
@@ -172,7 +172,7 @@
                 "id": 1,
                 "libelle": "Service bancaire",
                 "slug": "banque",
-                "icone": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/a2ccercle.png",
+                "icone": "http://xpress.sn/image-gweb/a2ccercle.png",
                 "services": [
                     {
                         "id": 1,
@@ -181,7 +181,7 @@
                         "description": "Solution de transfert d'argent, paiement de masse simple, rapide et sécurisé",
 						"affecter":["sn","civ"],
                         "assets": {
-                            "image": "http://192.168.4.57/gwebciv/web/bundles/getigatewayclient/images/upay.png",
+                            "image": "http://xpress.sn/image-gweb/upay.png",
                             "couleur": "#396bb4"
                         }
                     }
@@ -202,7 +202,7 @@
 					"id": 1,
 					"libelle": "Transfert d'argent",
 					"slug": "transfert",
-					"icone": "http://192.168.4.164/gwebciv/web/bundles/getigatewayclient/images/transfert.png",
+					"icone": "http://xpress.sn/image-gweb/transfert.png",
 					"services": [
 						{
 							"id": 1,
@@ -211,7 +211,7 @@
 							"description": "Solution de transfert d'argent simple, rapide et sécurisé",
 							"affecter":["sn"],
 							"assets": {
-								"image": "http://192.168.4.164/gwebciv/web/bundles/getigatewayclient/images/proxicash.png",
+								"image": "http://xpress.sn/image-gweb/proxicash.png",
 								"couleur": "#f0ad4e"
 							}
 						}
