@@ -34,7 +34,7 @@
                         "description": "Envoyer de l'argent en ligne au Sénégal est simple et rapide avec Small World",
 						"affecter":["sn"],
 						"plaform":["Gweb"],
-						"actif":true,
+						"actif":false,
 						"visibleaccueil":true,
                         "assets": {
                             "image": "http://xpress.sn/image-gweb/small.png",
@@ -49,7 +49,7 @@
 						"affecter":["sn"],
 						"plaform":["Mobile"],
 						"actif":true,
-						"visibleaccueil":true,
+						"visibleaccueil":false,
                         "assets": {
                             "image": "http://xpress.sn/image-gweb/ria.png",
                             "couleur": "#f0ad4e"
@@ -92,7 +92,7 @@
 						"affecter":["sn","civ"],
 						"plaform":["Gweb","Mobile"],
 						"actif":true,
-						"visibleaccueil":true,
+						"visibleaccueil":false,
                         "assets": {
                             "image": "http://xpress.sn/image-gweb/tigocash.png",
                             "couleur": "#545F9B"
@@ -104,7 +104,7 @@
                         "libelle": "MoneyGram",
 						"affecter":[],
 						"plaform":["Gweb","Mobile"],
-						"actif":true,
+						"actif":false,
 						"visibleaccueil":true,
                         "description": "MoneyGram propose des moyens rapides et fiables pour envoyer de l'argent",	
                         "assets": {
@@ -128,7 +128,7 @@
 						"affecter":[],
 						"plaform":["Mobile"],
 						"actif":true,
-						"visibleaccueil":true,
+						"visibleaccueil":false,
                         "assets": {
                             "image": "http://xpress.sn/image-gweb/senelec.png",
                             "couleur": "#D22002"
