@@ -33,7 +33,7 @@
                         "libelle": "SmallWorld",
                         "description": "Envoyer de l'argent en ligne au Sénégal est simple et rapide avec Small World",
 						"affecter":["sn"],
-						"plaform":["Gweb","Mobile"],
+						"plaform":["Gweb"],
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
@@ -46,8 +46,8 @@
                         "endpoint": "url",
                         "libelle": "Ria",
                         "description": "Ria est une organisation internationale de transfert d'argent.",
-						"affecter":["sn","civ"],
-						"plaform":["Gweb","Mobile"],
+						"affecter":["sn"],
+						"plaform":["Mobile"],
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
@@ -62,7 +62,7 @@
                         "libelle": "Transfast",
                         "description": "Transfast est une société internationale de transfert d'argent et de paiements transfrontaliers.",
 						"affecter":[],
-						"plaform":["Gweb","Mobile"],
+						"plaform":["Gweb"],
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
@@ -76,7 +76,7 @@
                         "libelle": "Lamp Fall",
                         "description": "Lamp Fall Cash est un service de transfert d'argent.",
 						"affecter":["civ"],
-						"plaform":["Gweb","Mobile"],
+						"plaform":["Gweb"],
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
@@ -126,7 +126,7 @@
                         "libelle": "Senelec",
                         "description": "Senelec est responsable de la production, du transport, de la distribution et de la vente de l’énergie électrique",
 						"affecter":[],
-						"plaform":["Gweb","Mobile"],
+						"plaform":["Mobile"],
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
@@ -189,8 +189,8 @@
                         "typeOperateur": null,
                         "critere": null,
                         "description": "Orange offre des solutions globales de télécommunications dans les domaines du fixe",
-						"affecter":["sn","civ"],
-						"plaform":["Gweb","Mobile"],
+						"affecter":["civ"],
+						"plaform":["Gweb"],
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
