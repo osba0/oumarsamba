@@ -237,7 +237,7 @@
 					"id": 1,
 					"libelle": "Transfert d'argent",
 					"slug": "transfert",
-					"icone": "http://xpress.sn/image-gweb/transfert.png",
+					"icone": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/transfert.png",
 					"services": [
 						{
 							"id": 1,
@@ -249,7 +249,7 @@
 							"actif":true,
 							"visibleaccueil":true,
 							"assets": {
-								"image": "http://xpress.sn/image-gweb/proxicash.png",
+								"image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/proxicash.png",
 								"couleur": "#f0ad4e"
 							}
 						}
