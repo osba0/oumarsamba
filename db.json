@@ -12,7 +12,7 @@
                 "id": 1,
                 "libelle": "Transfert d'argent",
                 "slug": "transfert",
-                "icone": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/transfert.png",
+                "icone": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/transfert.png",
                 "services": [
                     {
                         "id": 1,
@@ -23,7 +23,7 @@
 						"plaform":["Gweb","Mobile"],
 						"actif":true,
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/proxicash.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/proxicash.png",
                             "couleur": "#f0ad4e"
                         }
                     },
@@ -37,7 +37,7 @@
 						"actif":false,
 						"visibleaccueil":true,
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/small.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/small.png",
                             "couleur": "#5CB85C"
                         }
                     },
@@ -51,7 +51,7 @@
 						"actif":true,
 						"visibleaccueil":false,
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/ria.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/ria.png",
                             "couleur": "#f0ad4e"
                         }
                     },
@@ -65,7 +65,7 @@
 						"actif":true,
 						"visibleaccueil":false,
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/tigocash.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/tigocash.png",
                             "couleur": "#545F9B"
                         }
                     },
@@ -79,7 +79,7 @@
 						"visibleaccueil":true,
                         "description": "MoneyGram propose des moyens rapides et fiables pour envoyer de l'argent",	
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/money.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/money.png",
                             "couleur": "#d9534f"
                         }
                     }
@@ -89,7 +89,7 @@
                 "id": 2,
                 "libelle": "Encaissement",
                 "slug": "encaissement",
-                "icone": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/encaissement.png",
+                "icone": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/encaissement.png",
                 "services": [
                     {
                         "id": 1,
@@ -101,7 +101,7 @@
 						"actif":true,
 						"visibleaccueil":false,
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/senelec.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/senelec.png",
                             "couleur": "#D22002"
                         }
                     },
@@ -115,7 +115,7 @@
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/sde.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/sde.png",
                             "couleur": "#189B72"
                         }
                     }
@@ -125,7 +125,7 @@
                 "id": 3,
                 "libelle": "Monnaie Elect.",
                 "slug": "monnaie",
-                "icone": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/monnaie.png",
+                "icone": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/monnaie.png",
                 "services": [
                     {
                         "id": 1,
@@ -138,7 +138,7 @@
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/orangemoney.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/orangemoney.png",
                             "couleur": "#FA6C1C"
                         }
                     }
@@ -149,7 +149,7 @@
                 "id": 4,
                 "libelle": "Recharge",
                 "slug": "recharge",
-                "icone": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/recharge.png",
+                "icone": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/recharge.png",
                 "services": [
                     {
                         "id": 1,
@@ -165,7 +165,7 @@
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/orange.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/orange.png",
                             "couleur": "#FA6C1C"
                         }
                     }
@@ -175,7 +175,7 @@
                 "id": 1,
                 "libelle": "Service bancaire",
                 "slug": "banque",
-                "icone": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/a2ccercle.png",
+                "icone": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/a2ccercle.png",
                 "services": [
                     {
                         "id": 1,
@@ -187,7 +187,7 @@
 						"actif":true,
 						"visibleaccueil":true,
                         "assets": {
-                            "image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/upay.png",
+                            "image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/upay.png",
                             "couleur": "#396bb4"
                         }
                     }
@@ -208,7 +208,7 @@
 					"id": 1,
 					"libelle": "Transfert d'argent",
 					"slug": "transfert",
-					"icone": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/transfert.png",
+					"icone": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/transfert.png",
 					"services": [
 						{
 							"id": 1,
@@ -220,7 +220,7 @@
 							"actif":true,
 							"visibleaccueil":true,
 							"assets": {
-								"image": "http://192.168.4.125/getiweb/gweb/web/bundles/getigatewayclient/images/proxicash.png",
+								"image": "http://192.168.4.195/getiweb/gweb/web/bundles/getigatewayclient/images/proxicash.png",
 								"couleur": "#f0ad4e"
 							}
 						}
